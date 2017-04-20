@@ -27,18 +27,9 @@ import java.lang.reflect.Field;
 public class Tab {
 
 
-    /** SMALL CONSTRUCTORS **/
-
-    private static Tab tab;
-
-    public static Tab tabManager(){
-        return tab;
-    }
-
-
     /** REST **/
 
-    public void sendTabHeader(Player p, String header){
+    public static void sendTabHeader(Player p, String header){
 
         CraftPlayer cp = (CraftPlayer) p;
         PlayerConnection connection = cp.getHandle().playerConnection;
@@ -62,7 +53,7 @@ public class Tab {
     }
 
 
-    public void sendTabFooter(Player p, String footer){
+    public static void sendTabFooter(Player p, String footer){
 
         CraftPlayer cp = (CraftPlayer) p;
         PlayerConnection connection = cp.getHandle().playerConnection;
