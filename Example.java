@@ -27,7 +27,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class Example implements Listener {
     
     
-    /** SMALL CONSTRUCTOR **/
+    /** SMALL CONSTRUCTORS **/
     
     private final Main plugin;
     
