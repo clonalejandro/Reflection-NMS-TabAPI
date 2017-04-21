@@ -29,6 +29,13 @@ public class Tab {
 
     /** REST **/
 
+    
+    /**
+     * 
+     * @param p
+     * @param header
+     */
+    
     public static void sendTabHeader(Player p, String header){
 
         CraftPlayer cp = (CraftPlayer) p;
@@ -53,6 +60,12 @@ public class Tab {
     }
 
 
+    /**
+     * 
+     * @param p
+     * @param footer
+     */
+    
     public static void sendTabFooter(Player p, String footer){
 
         CraftPlayer cp = (CraftPlayer) p;
