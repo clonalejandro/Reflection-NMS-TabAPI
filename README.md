@@ -7,8 +7,6 @@ A test develop at packets with reflection &amp; nms in minecraft
 
 ## Guide 
 
-<br>
-
 ### DOC
 
 - method: **sendTabHeader** or **sendTabFooter**
@@ -19,7 +17,7 @@ A test develop at packets with reflection &amp; nms in minecraft
 
 ### Example 1
 
-`Tab.method(p, param);`
+`Tab.method(param1, param2);`
 
 <br>
 
